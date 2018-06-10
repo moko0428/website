@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+  <title>회원가입</title>
+<style>
+  h1 {/*인벤회원가입 글씨 마진*/
+    margin-left: 160px;
+  }
+  ol {/*속성변경*/
+    display: inline;
+  }
+  li {/*약관동의 글자의 속성변경,백그라운드,글씨꾸미기*/
+    display: inline;
+    background: linear-gradient(200deg,#ACFA58,#81DAF5);
+    background-size: auto;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 120px;
+  }
+
+  #invencolor {/*인벤 글씨 색깔과 속성변경*/
+    color:green;
+    display: inline;
+  }
+  #gaipname { /*이름입력칸의 속성변경과 패딩*/
+    display: inline;
+    padding-left: 76px;
+  }
+
+  #gaipid {/*id입력칸의 속성변경과 패딩*/
+    display: inline;
+    padding-left: 11px;
+  }
+
+  #gaippw {/*pw입력칸의 속성변경과 패딩*/
+    display: inline;
+    padding-left: 1px;
+  }
+
+  #a1 {/*입력칸끼리의 바텀마진*/
+    margin-bottom: 5px;
+  }
+
+  #confirm { /*확인버튼 속성변경과 마진*/
+    display: inline;
+    margin-left: 130px;
+  }
+
+  #comeback { /*취소버튼 속성변경과 마진*/
+    display: inline;
+    margin-left: 70px;
+  }
+
+  #confirmsubmit {/*버튼끼리의 마진*/
+    margin-top: 20px;
+  }
+</style>
+</head>
+<body>
+<h1><div id="invencolor">인벤</div> 회원가입</h1>
+    <ol>
+			<li>STEP02.개인 정보 입력</li>
+		</ol>
+
+  <h3>◎ 개인 정보 입력</h3>
+<div id="a1">  이름:<div id="gaipname"><input type="text" style="width:130px;"></div></div>
+  <br>
+<div id="a1">  아이디 입력 :<div id="gaipid"> <input type="text"  style="width:130px;"></div></div>
+  <br>
+<div id="a1">  비밀번호 입력:<div id="gaippw"> <input type="password"  style="width:130px;"></div></div>
+  <br>
+<div id="a1">비밀번호 확인:<div id="gaippw"> <input type="password"  style="width:130px;" placeholder="비밀번호를 다시입력하세요."></div></div>
+<div id="confirmsubmit">
+<div id="confirm">
+<input type="button" value="확인" onClick="location.href='finish.html'" style="width:90px; height:50px;">
+</div>
+<div id="comeback">
+<input type="button" value="취소" onClick="location.href='index.html'" style="width:90px; height:50px;">
+</div>
+</div>
+</body>
+</html>

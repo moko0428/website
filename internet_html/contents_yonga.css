@@ -1,0 +1,47 @@
+contents {
+  background-color: black;
+  background: rgba(94, 94, 94, 0.5);
+  width: 595px;
+
+  margin-left: 5px;
+  margin-bottom: 5px;
+  float: left;
+}
+
+#mainh {
+  background-color: rgb(55, 55, 55);
+  color: white;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#jongryu { /* 표 항목 앵커 div */
+  width: 500px; height: 70px;
+  margin-top: 5px;
+  margin-left: 60px;
+  margin-right: 60px;
+  text-align: center;
+  background-color: #D1C4E9;
+}
+span { /* 표 항목 앵커 div 텍스트*/
+  margin: 10px;
+  font-size: 32px;
+}
+#anhead { /* 제목 */
+  padding: 5px;
+}
+table { /* 표*/
+  width: 100%;
+  padding: 5px;
+}
+
+tbody { /* 표 가운데정렬, 배경흰색 */
+  text-align: center;
+  background: white;
+
+}
+
+#ths { /* 표헤드 색 */
+  background: gold;
+}

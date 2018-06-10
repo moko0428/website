@@ -1,0 +1,52 @@
+contents {
+  background-color: black;
+  background: rgba(94, 94, 94, 0.5);
+  width: 595px;
+  height: 792px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  float: left;
+}
+#WEAPONS_AR { /* 무기 이미지 마진 */
+  margin-left: 40px;
+  margin-top: 5px;
+}
+#mainh { /* 메인 헤더 */
+  background-color: rgb(55, 55, 55);
+  color: white;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#W{  /* 웨폰 div */
+  margin: 5px;
+  width: 287px;
+  height: 300px;
+  background-color: white;
+  float: left;
+}
+#Wh {  /* 웨폰 헤더 */
+  text-align: center;
+  margin-top: 7px;
+  margin-left: 13px;
+  width: 100px; height: 25px;
+  background-color: orange;
+  color: white;
+  margin-bottom: 3px;
+}
+#Wh2 { /* 웨폰 헤더 */
+  text-align: center;
+  margin-top: 7px;
+  margin-left: 13px;
+  width: 140px; height: 25px;
+  background-color: orange;
+  color: white;
+  margin-bottom: 3px;
+}
+#Wtext { /* 내용 마진, 크기 */
+  font-size: 16px;
+  margin-left: 13px;
+  margin-right: 13px;
+  margin-bottom: 5px;
+}

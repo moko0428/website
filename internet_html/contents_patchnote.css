@@ -1,0 +1,100 @@
+contents {
+  background-color: black;
+  background: rgba(94, 94, 94, 0.5);
+  width: 595px;
+  height: 792px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  float: left;
+}
+
+#mainh {
+  background-color: rgb(55, 55, 55);
+  color: white;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+#p1 { /* 패치노트 div */
+  margin: 5px;
+  width: 585px;
+  height: 500px;
+  background-color: white;
+  float: left;
+}
+#ph { /*패치노트 헤더 */
+  text-align: center;
+  font-size: 15px;
+  margin-top: 15px;
+  margin-left: 25px;
+  width: 130px; height: 27px;
+  background-color: orange;
+  color: white;
+  margin-bottom: 10px;
+}
+#ptext { /* 내용 */
+  font-size: 18px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 5px;
+}
+#ptexts { /* 내용2 */
+  margin-left: 25px;
+  margin-right: 25px;
+}
+#p2 { /* 패치노트 div */
+  margin: 5px;
+  width: 287px;
+  height: 240px;
+  background-color: white;
+  float: left;
+}
+#ph2 { /* 패치노트 div */
+  text-align: center;
+  margin-top: 7px;
+  margin-left: 13px;
+  width: 100px; height: 20px;
+  background-color: orange;
+  color: white;
+  margin-bottom: 3px;
+}
+
+#ptext2 { /* 내용 */
+  font-size: 13px;
+  margin-left: 13px;
+  margin-right: 13px;
+  margin-bottom: 5px;
+}
+#ptexts2 { /* 내용2 */
+  font-size: 10px;
+  margin-left: 13px;
+  margin-right: 13px;
+}
+#p3 { /* 패치노트 div */
+  margin: 5px;
+  width: 287px;
+  height: 240px;
+  background-color: white;
+  float: left;
+}
+#ph3 { /*패치노트 헤더 */
+  text-align: center;
+  margin-top: 7px;
+  margin-left: 13px;
+  width: 100px; height: 20px;
+  background-color: orange;
+  color: white;
+  margin-bottom: 3px;
+}
+
+#ptext3 { /* 내용 */
+  font-size: 13px;
+  margin-left: 13px;
+  margin-right: 13px;
+  margin-bottom: 5px;
+}
+#ptexts3 { /* 내용2 */
+  font-size: 10px;
+  margin-left: 13px;
+  margin-right: 13px;
+}

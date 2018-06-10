@@ -1,0 +1,184 @@
+sidebar { /*사이드바*/
+  background-color: black;
+  background: rgba(94, 94, 94, 0.5);
+  width: 200px; height: 782px;
+  float: left;
+}
+
+#t1 { /*pubg인벤 글자 */
+  font-weight: bolder;
+  margin-bottom: 10px;
+ }
+
+#rogin { /*로그인 창 마진*/
+  margin-left:10px;
+  margin-top:10px;
+}
+
+#sidebarmenu { /*사이드바 메뉴의 마진*/
+  margin-top: 40px;
+}
+
+#box { /*박스 안에 글씨들 굵게와 마진*/
+  font-weight:bolder; margin-left: 10px;
+}
+
+#box1 { /*LIVE글씨 꾸미기와 백그라운드*/
+  background-color: red;
+  color:yellow;
+  padding-left: 10px;
+  padding-right:10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display:inline;
+  font-weight:bolder;
+  margin-left: 20px;
+  margin-right: 5px;}
+
+#id1 { /*라이브끼리의 마진*/
+  margin-bottom: 20px;
+}
+
+#streaming { /*방송사진 마진*/
+  margin-left:5px;
+  margin-top:3px;
+  margin-bottom: 10px;
+  padding-right: 1px;
+  border:5px;
+}
+
+#steamingtitle { /*배그LIVE글씨 꾸미기와 백그라운드*/
+  background-color:rgb(55,55,55);
+  color: red;
+  padding-left: 10px;
+  padding-right:10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display:inline;
+  font-weight:bolder;
+  margin-right: 20px;
+  margin-left: 38px;
+}
+
+#roginsub {/* ID저장과 로그인창끼리의 마진*/
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#idremember { /*ID저장의 마진과 속성변환*/
+
+  margin-right: 33px;
+  display:inline;
+}
+
+#gaip {/*회원가입버튼 마진과 속성변환*/
+  margin-right:12px;
+  display:inline;
+}
+
+#patch {/*백그라운드 색깔과 글자색깔과 각자의마진*/
+  background-color: rgb(55,55,55);
+  color:white;
+  padding-left: 48px;
+  padding-right:48px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display:inline;
+  font-weight:bolder;
+  margin-bottom: 10px;
+  margin-left:20px;
+}
+
+#reader {/*백그라운드 색깔과 글자색깔과 각자의마진*/
+  background-color: rgb(55,55,55);
+  color:white;
+  padding-left: 29px;
+  padding-right:29px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display:inline;
+  font-weight:bolder;
+  margin-bottom: 10px;
+  margin-left:20px;
+}
+
+#dictionary {/*백그라운드 색깔과 글자색깔과 각자의마진*/
+  background-color: rgb(55,55,55);
+  color:white;
+  padding-left: 26px;
+  padding-right:26px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display:inline;
+  font-weight:bolder;
+  margin-bottom: 10px;
+  margin-left:20px;
+}
+
+#map { /*백그라운드 색깔과 글자색깔과 각자의마진*/
+  background-color: rgb(55,55,55);
+  color:white;
+  padding-left: 64px;
+  padding-right:64px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display:inline;
+  font-weight:bolder;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+#sidesub { /*사이드바 메뉴끼리의 마진*/
+  margin-bottom: 30px;
+}
+
+
+#st {/*배그LIVE글씨 위아래 마진*/
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+
+
+#strbox { /*방송사진뒤에 백그라운드*/
+  background-color: rgb(55,55,55);
+  color: white;
+  margin-left: 10px;
+  margin-right: 12px;
+  padding-top: 1px;
+  padding-right: -6px;
+  padding-left: -6px;
+  margin-bottom: 1px;
+}
+
+#rogincss {/*로그인 창*/
+  background-color: rgb(55,55,55);
+  color: white;
+  margin-left: 6px;
+  margin-right: 6px;
+  padding-bottom: 6px;
+  font-weight: bolder;
+}
+
+#nickname {/*닉네임 글씨 크기와색깔, 속성변환*/
+  font-size: 24px; display:inline;
+  color:white;
+}
+
+#text { /*텍스트창 속성변환*/
+  display:inline;
+}
+#password {
+  display:inline;
+}
+
+#id { /*ID글씨 마진*/
+  margin-left: 9px;
+  margin-bottom: 5px;
+}
+
+#roginsub2 /*ID저장과 로그인 버튼 마진*/
+{
+  margin-top: 2px;
+  margin-bottom: 2px;
+}

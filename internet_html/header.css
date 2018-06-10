@@ -1,0 +1,69 @@
+ul{list-style: none;}
+*{ margin: 0; padding: 0;}
+a{ color: inherit; text-decoration: none;}
+
+header{
+  position: relative;
+  min-width: 900px;
+  height: 50px; z-index: 99;
+}
+header > nav{
+  position: relative;
+  width: 800px; margin:0 auto;
+  float: left;
+}
+
+a:hover {
+  color: black;
+
+}
+/* 1단계 메뉴 */
+header > nav > ul.gnb > li{
+  position: relative;
+  float: left;
+  width: 80px;
+  font-size: 130%;
+  padding: 0 10px;
+  margin-top: 21px;
+  line-height: 50px;
+  width: 99px;
+  text-align: center;
+  background-color: black;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+
+}
+/* 2단계 메뉴 */
+ul.depth2{
+  position: absolute;
+  display: none;
+  border: 1px solid #ccc;
+  left: 0;
+}
+ul.depth2 li{
+  width: 180px; height: 40px;
+  line-height: 40px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+  background: #fff; color: #333;
+  padding: 0 10px;
+  background-color: black;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+header > nav li:hover{
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* 마우스가 올라가면 메뉴 표시 */
+header nav li:hover > ul.depth2{
+  display: block;
+}
+#logo {
+  margin-left: 23px;
+  margin-right: 32px;
+  margin-top: 7px;
+  width: 150px;
+  float: left;
+}

@@ -1,0 +1,129 @@
+contents {
+  background-color: white;
+  background: #ffffff;
+  width: 595px;
+  height: 782px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  float: left;
+}
+
+#mainh { /*제목*/
+  background-color: rgb(55, 55, 55);
+  color: white;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+#WPB{ /*웨폰 범례*/
+  position: relative;
+  top: 5px;
+  background-color: #E6E6E6;
+  height: 30px;
+  padding:10px 0 0 0;
+  border: 1px solid;
+}
+#wp1{/*아이콘*/
+  color: black;
+  margin: 0 25px 0px 25px;
+}
+#wp2{/*이름*/
+  color: black;
+  margin: 0 35px 0px 35px;
+}
+#wp3{/*종류*/
+  color: black;
+  margin: 0 0 0px 25px;
+}
+#wp4{/*데미지*/
+  color: black;
+  margin: 0 0 0px 25px;
+}
+#wp5{/*장탄수*/
+  color: black;
+  margin: 0 0 0px 25px;
+}
+#wp6{/*탄약*/
+  color: black;
+  margin: 0 0px 0px 25px;
+}
+#wp7{/*평점*/
+  color: black;
+  margin: 0 0px 0px 35px;
+}
+#AKM{ /*에이케이*/
+  position: relative;
+  top: 5px;
+  background-color: #F2F2F2;
+  height: 70px;
+  padding:10px 0 0 0;
+  border-bottom:1px dotted;
+}
+#akm1{/*에케이 사진*/
+  color: black;
+  margin: 0px 25px 0px 15px;
+  padding-top:40px;
+}
+#akm2{/*이름*/
+  color: black;
+  margin: 0 35px 0px 35px;
+  top:5px;
+}
+#akm3{/*종류*/
+  color: black;
+  margin: 0 0 0px 25px;
+}
+#akm4{/*데미지*/
+  color: black;
+  margin: 0 0 0px 50px;
+}
+#akm5{/*장탄수*/
+  color: black;
+  margin: 0 0 0px 40px;
+}
+#akm6{/*탄약*/
+  color: black;
+  margin: 0 0px 0px 25px;
+}
+#akm7{/*평점*/
+  color: black;
+  margin: 0 0px 0px 15px;
+}
+#M4A16{ /*엠포*/
+  position: relative;
+  top: 5px;
+  background-color: #FFFFFF;
+  height: 70px;
+  padding:10px 0 0 0;
+  border-bottom:1px dotted;
+}
+#M41{/*엠포사진*/
+  color: black;
+  margin: 0px 25px 0px 15px;
+  padding-top:40px;
+}
+#M42{/*이름*/
+  color: black;
+  margin: 0 35px 0px 35px;
+  top:5px;
+}
+#M43{/*종류*/
+  color: black;
+  margin: 0 0 0px 20px;
+}
+#M44{/*데미지*/
+  color: black;
+  margin: 0 0 0px 50px;
+}
+#M45{/*장탄수*/
+  color: black;
+  margin: 0 0 0px 40px;
+}
+#M46{/*탄약*/
+  color: black;
+  margin: 0 0px 0px 25px;
+}
+#M47{/*평점*/
+  color: black;
+  margin: 0 0px 0px 15px;
+}

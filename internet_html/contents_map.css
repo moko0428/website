@@ -1,0 +1,17 @@
+contents {
+  background-color: black;
+  background: rgba(94, 94, 94, 0.5);
+  width: 595px;
+  height: 782px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  float: left;
+}
+
+#mainh {
+  background-color: rgb(55, 55, 55);
+  color: white;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}

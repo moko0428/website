@@ -1,0 +1,47 @@
+ #roginlogo {/*로고 마진*/
+   margin-left:245px;
+   margin-top: 30px;
+ }
+ #font1 {/*배그인벤 글씨 꾸미기*/
+   font-size: 50px;
+   display:inline;
+   color:green;
+   font-weight: bolder;
+ }
+ #font2 {/*에 오신걸 환영합니다 꾸미기*/
+   font-size:30px;
+   display:inline;
+ }
+ #fonts { /*글자들의 백그라운드와 속성변경,마진*/
+   margin-left: 125px;
+   background-size: auto;
+   background:linear-gradient(200deg,#EFFBFB,#FBFBEF);
+   display:inline-block;
+   margin-bottom: 25px;
+ }
+ #choose { /*회원선택글씨 꾸미기,백그라운드 그라데이션*/
+   margin-left:360px;
+   font-weight: bolder;
+   background:linear-gradient(200deg,#EFFBFB,#FBFBEF);
+   color: green;
+   display:inline;
+ }
+ #chmg { /*회원선택 마진*/
+   margin-bottom: 15px;
+ }
+
+ #kid {/*버튼 마진*/
+   margin-left:240px;
+   margin-bottom:20px;
+ }
+ #adult {/*버튼 마진*/
+   margin-left:240px;
+ }
+ #consumer { /*글씨들의 색*/
+   color:#AEB404;
+   font-weight: bolder;
+ }
+ #csmg { /*글씨들 마진*/
+   margin-left:230px;
+   margin-bottom:10px;
+ }

@@ -1,0 +1,302 @@
+contents {
+  background-color: black;
+  background: black;
+  width: 795px;
+  height: 782px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  float: left;
+}
+body { /*배경사진*/
+  background-image: url("img/background.jpg");
+  background-repeat: no-repeat;
+  background-size:100%;
+}
+#container {
+  width:800px;
+  height:100%;
+  margin:0px auto;
+}
+#rm{ /*랭크메뉴*/
+  position: relative;
+  top:0px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+#rm>li{ /*랭크 메뉴 리스트*/
+  margin: 0 0 0 0;
+  padding: 10px 15px 10px 15px;
+  border: 0;
+  float: left;
+  text-align: center;
+  background-color: #B45F04;
+  color: white;
+}
+#rmbc{ /*랭크 메뉴바 배경색*/
+  background-color: #B45F04;
+  height: 43px;
+}
+#rm2{/*서버메뉴*/
+  position: relative;
+  top:5px;
+  left: 10px;
+  list-style: none;
+  margin: 0;
+  padding: 0 5px 0 0;
+
+}
+
+#rm2>li{/*서버 메뉴 리스트*/
+  margin: 0 0 0 0;
+  padding: 10px 15px 10px 10px;
+  border: 0;
+  float: left;
+  text-align: center;
+  background-color: #0B0B61;
+  color: white;
+  font-size:10px;
+  border-radius: 8px;
+  border: 1px solid white;
+  text-align: center;
+}
+#rmbc2{/*서버 메뉴 배경*/
+  background-color: #0B0B61;
+  height: 45px;
+}
+#bum{ /*범례*/
+  position: relative;
+  top: 10px;
+  background-color: #0B0B3B;
+  height: 33px;
+  padding:10px 0 0 0;
+}
+#s1{ /*#*/
+  color: white;
+  margin: 0 25px 0px 25px;
+
+}
+#s2{ /*지역모드*/
+  color: white;
+  margin: 0 0 0 0;
+
+}
+#s3{ /*닉네임*/
+  color: white;
+  margin: 0 80px 0px 80px;
+
+}
+#s4{ /*레이팅*/
+  color: white;
+  margin: 0 10px 0px 0;
+
+}
+#s5{ /*KD*/
+  color: white;
+  margin: 0 7px 0px 7px;
+
+}
+#s6{ /*승률*/
+  color: white;
+  margin: 0 7px 0px 7px;
+
+}
+#s7{ /*탑10*/
+  color: white;
+  margin: 0 7px 0px 7px;
+
+}
+#s8{ /*여포*/
+  color: white;
+  margin: 0 7px 0px 7px;
+
+}
+#s9{ /*팀킬*/
+  color: white;
+  margin: 0 7px 0px 7px;
+   0;
+}
+#s10{ /*평균딜량*/
+  color: white;
+  margin: 0 10px 0px 10px;
+
+}
+#RK1{/*랭킹1위 멸치*/
+  position: relative;
+  top: 10px;
+  background-color: #ffffff;
+  height: 33px;
+  padding:10px 0 0 0;
+}
+#j1{ /*#*/
+  color: black;
+  margin: 0 25px 0px 25px;
+
+}
+#j2{ /*지역모드*/
+  margin: 0 0 0 0;
+}
+#j2>img{ /*랭킹 1위 이미지*/
+  width: 90px;
+  height: 15px;
+}
+#j3{ /*닉네임*/
+  color: black;
+  margin: 0 60px 0px 60px;
+}
+#j4{ /*레이팅*/
+  color: green;
+  margin: 0 10px 0px 17px;
+}
+#j5{ /*KD*/
+  color: red;
+  margin: 0 7px 0px 16px;
+}
+#j6{ /*승률*/
+  color: #FF0040;
+  margin: 0 7px 0px 10px;
+
+}
+#j7{ /*탑10*/
+  color: #610B21;
+  margin: 0 7px 0px 4px;
+
+}
+#j8{ /*여포*/
+  color: black;
+  margin: 0 7px 0px 20px;
+
+}
+#j9{ /*팀킬*/
+  color: black;
+  margin: 0 7px 0px 30px;
+
+}
+#j10{ /*평균딜량*/
+  color: black;
+  margin: 0 10px 0px 40px;
+
+}
+#RK2{/*랭킹 2위 빈수박*/
+  position: relative;
+  top: 10px;
+  background-color: #ffffff;
+  height: 33px;
+  padding:10px 0 0 0;
+}
+#p1{ /*#*/
+  color: black;
+  margin: 0 25px 0px 25px;
+
+}
+#p2{ /*지역모드*/
+  margin: 0 0 0 0;
+}
+#p2>img{/*랭킹 2위 이미지*/
+  width: 90px;
+  height: 15px;
+}
+#p3{ /*닉네임*/
+  color: black;
+  margin: 0 60px 0px 60px;
+}
+#p4{ /*레이팅*/
+  color: green;
+  margin: 0 10px 0px 2px;
+}
+#p5{ /*KD*/
+  color: red;
+  margin: 0 7px 0px 7px;
+}
+#p6{ /*승률*/
+  color: #FF0040;
+  margin: 0 7px 0px 0px;
+
+}
+#p7{ /*탑10*/
+  color: #610B21;
+  margin: 0 7px 0px 4px;
+
+}
+#p8{ /*여포*/
+  color: black;
+  margin: 0 7px 0px 10px;
+
+}
+#p9{ /*팀킬*/
+  color: black;
+  margin: 0 7px 0px 24px;
+
+}
+#p10{ /*평균딜량*/
+  color: black;
+  margin: 0 10px 0px 40px;
+
+}
+#RK3{/*랭킹 3위*/
+  position: relative;
+  top: 10px;
+  background-color: #ffffff;
+  height: 33px;
+  padding:10px 0 0 0;
+}
+#h1{ /*#*/
+  color: black;
+  margin: 0 25px 0px 25px;
+
+}
+#h2{ /*지역모드*/
+  margin: 0 0 0 0;
+}
+#h2>img{/*랭킹3위 이미지*/
+  width: 90px;
+  height: 15px;
+}
+#h3{ /*닉네임*/
+  color: black;
+  margin: 0 60px 0px 60px;
+}
+#h4{ /*레이팅*/
+  color: green;
+  margin: 0 10px 0px 22px;
+}
+#h5{ /*KD*/
+  color: red;
+  margin: 0 7px 0px 7px;
+}
+#h6{ /*승률*/
+  color: #FF0040;
+  margin: 0 7px 0px 0px;
+
+}
+#h7{ /*탑10*/
+  color: #610B21;
+  margin: 0 7px 0px 4px;
+
+}
+#h8{ /*여포*/
+  color: black;
+  margin: 0 7px 0px 10px;
+
+}
+#h9{ /*팀킬*/
+  color: black;
+  margin: 0 7px 0px 24px;
+
+}
+#h10{ /*평균딜량*/
+  color: black;
+  margin: 0 10px 0px 40px;
+
+}
+#loding9{/*데이터 불러오기 구현*/
+  position:relative;
+  top: 50px;
+  text-align: center;
+}
+#loding10>img{/*로딩 호버*/
+  position: relative;
+  top: 70px;
+  width: 800px;
+}

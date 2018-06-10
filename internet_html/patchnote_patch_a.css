@@ -1,0 +1,28 @@
+contents {
+  background-color: black;
+  background: rgba(94, 94, 94, 0.5);
+  width: 595px;
+  height: 782px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  float: left;
+}
+
+#mainh { /* 헤더 */
+  background-color: rgb(55, 55, 55);
+  color: white;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+#pa { /* 콘텐츠 마진 */
+  margin: 5px;
+}
+#ptext { /* 텍스트 사이즈 배경 색 */
+  font-size: 17px;
+  background-color: rgba(224, 224, 224, 0.94);
+}
+h3 { /* 헤더 */
+  color: purple;
+  margin:auto;
+}
